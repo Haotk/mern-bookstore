@@ -1,0 +1,32 @@
+.divOrderDetail{
+    display: flex;
+    justify-content: center;
+}
+.cardOrderDetail{
+    width: 55%;
+    margin:2rem 0;
+    .headerOrderDetail{
+        padding: 0 1rem;
+    }
+    h5{
+        margin: 0.5rem;
+    }
+    .DivTableCart{
+        padding: 0 2rem;
+    }
+    &__Details{
+        &--rowDetail{
+            display: flex;
+            justify-content: space-between;
+            padding: 0.5rem 2rem;
+            label{
+                width: 50%;
+                font-size : 18px;
+                font-weight: 500;
+            }
+            p{
+                margin :0;
+            }
+        }
+    }
+}
